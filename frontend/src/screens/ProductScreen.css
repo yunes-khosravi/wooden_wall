@@ -1,0 +1,22 @@
+.left img {
+  
+    width:90%;
+}
+
+.right button {
+    display: block;
+    margin: 20px auto;
+}
+.carsp{
+    width:100%;
+    margin: 0 auto;
+}
+.im{
+    height: 400px;
+}
+.carsole{
+    width: 110%;
+    background: "#F5F5F5";
+    color: "white";
+    margin: 0 auto;
+}

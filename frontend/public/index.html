@@ -13,14 +13,31 @@
     
     <meta
       name="description"
-      content="WALL where you can sell your car !"
+      content="WoodenWALL where you can sell your car !"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
 
-    
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"> </script>
+<script>
+  $(document).on("pagecreate","#root",function(){
+    $("body").on("swipeleft",function(){
+      slider_controler_hide();
+    });
+  
+    $("body").on("swiperight",function(){
+      slider_controler_show();
+    });
+                
+  });
+  </script>
+
+
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -32,8 +49,11 @@
 
 
     <title>Wooden Wall</title>
+
   </head>
-  <body>
+
+  <body style='background:#F5F5F5'>
+    <!-- <iframe src="https://maps.google.com/maps?q=Tehran%20Dates%20Products&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width=300 height=150 allowfullscreen></iframe> -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 

@@ -1,0 +1,67 @@
+
+textarea{
+    width:90%;
+}
+.L_N_N_B{
+  margin-top: 15%;
+  text-align: center;
+  position: relative;
+}
+.form-ite{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid #B2B1B9;
+    margin-bottom: 1rem;
+    background-color: #F5F5F5;
+}
+.submit-btn{
+    border: 2px solid #FCC72C;
+    background-color: #F5F5F5;
+    margin-top:2rem;
+
+}
+.heading {
+    margin: 0;
+    padding: 0px;
+    background-color: 
+  black;
+    color: 
+  white;
+    text-align: center;
+  }
+  
+.heading > h1 {
+    padding: 20px;
+    margin: 0;
+  }
+
+  .map-wrap {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 77px); 
+  }
+  
+  .map {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+  }
+  .processing{
+    width: 100%;
+    color:#2192FF;
+    position: absolute;
+    display:block;
+    animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  

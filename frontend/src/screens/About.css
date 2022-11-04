@@ -1,0 +1,16 @@
+#screen{
+    padding:5%;
+}
+.me{
+    border-radius: 50%;
+    width:20%;
+    display: block;
+}
+.mehr{
+    opacity: 50%;
+    margin: 10%;
+    border: dotted gray;
+    border-bottom:none;
+    width:30%;
+    border-width:10px;
+}

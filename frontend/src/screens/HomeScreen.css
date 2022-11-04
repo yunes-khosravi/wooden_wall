@@ -1,0 +1,55 @@
+.search-item{
+    padding:10px;
+    margin: 15px;
+    border: 2px solid #B2B1B9;
+    background-color: #F5F5F5;
+    border-radius:5px;
+}
+.search-btn{
+    border: 2px solid #50D890;    
+    color:#50D890;
+}
+#screen{
+    background-color: #F5F5F5;
+}
+
+option{
+    background-color: #F5F5F5;
+}
+.more{
+    padding: 10px;
+    border: 2px solid #FCC72C;
+    background-color: #F5F5F5;
+    border-radius:5px;
+    margin-top: 2rem;
+
+}
+.select{
+    display: inline-block;
+}
+#search{
+    text-align:center;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid #222831;
+}
+#rec{
+    width: 90%;
+    margin: 20px auto;
+    color:#82CD47;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+#rec::after{
+    content: '|';
+    color: #98A8F8;
+    animation: blink 1s step-start infinite;
+}
+@keyframes blink{
+    50% {
+        opacity: 0;
+    }
+}
+ @media screen and (max-width: 600px) {
+    .select{
+        display: block;
+    }
+ }
