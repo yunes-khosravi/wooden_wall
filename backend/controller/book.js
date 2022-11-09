@@ -113,7 +113,7 @@ const Delete = async (req, res, next) => {
 const new_book = async (req, res, next) => {
   if (req.isAuthenticated()) {
     var Price = -1;
-    if (req.body.price > 0) return Price = Number(req.body.price);
+    if (req.body.price > 0) { Price = Number(req.body.price) };
     const imgpath = []
     var images_score = 0
     if (req.files.imageUrl.length >= 2) {
