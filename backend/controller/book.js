@@ -66,9 +66,9 @@ const some_carts = async (req, res, next) => {
       ]
     }).sort(Sort_Rols[Number(req.query.sort)]).limit(req.query.count).then(result => res.send(result))
   } else if (req.params.type === 'mybooks') {
-    if (req.isAuthenticated()) return Product.find({
+    if (req.isAuthenticated()) { Product.find({
       userId: req.user._id
-    }, (err, myproducts) => res.send(myproducts))
+    }, (err, myproducts) => res.send(myproducts))}
     else return res.status(401).send({
       message: 'authentication error'
     })
