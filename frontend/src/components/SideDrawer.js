@@ -103,8 +103,8 @@ const SideDrawer = () => {
   function DarkMode (){
     setIsDarkMode(!isDarkMode)
     if (!isDarkMode){
-    $("#sidedrawer").css('background-color','black');
-    $("#screen").css('background-color','black');
+    $("#sidedrawer").css('background-color','#222831');
+    $("#screen").css('background-color','#222831');
     }
     else if (isDarkMode) { 
       $("#sidedrawer").css('background-color','#F5F5F5');
